@@ -11,10 +11,16 @@ setup(
     install_requires=[
         # Assuming Nomeroff Net does not have specific versioning in its setup.py,
         # you can specify a commit or tag if needed by appending `@commit_hash` or `@tag_name`
+        'craft_text_detector @ git+https://github.com/ria-com/craft-text-detector.git',
+        'PyTurboJPEG @ git+https://github.com/lilohuang/PyTurboJPEG.git',
+        'modelhub_client @ git+https://github.com/ria-com/modelhub-client.git',
         'nomeroff-net @ git+https://github.com/konverner/nomeroff-net.git'
     ],
     dependency_links=[
         # This link will allow pip to find the Git repository when installing your package
+        'git+https://github.com/lilohuang/PyTurboJPEG.git',
+        'git+https://github.com/ria-com/modelhub-client.git',
+        'git+https://github.com/ria-com/craft-text-detector.git',
         'git+https://github.com/konverner/nomeroff-net.git#egg=nomeroff-net'
     ],
     classifiers=[
