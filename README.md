@@ -8,7 +8,7 @@ A package for vehicle identification system.
 
 1. Clone repository
 ```bash
-git clone 
+git clone https://github.com/konverner/traffic-video-analytics.git
 ```
 
 2. Install the package
